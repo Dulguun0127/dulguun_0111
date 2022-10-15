@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    background-color:white;
+}
+
+
+li,a,button{
+    font-family: po;
+    font-size: 16px;
+    /* line height: 24px; */
+    font style:normal;
+    color: #394149;
+    font-weight: 600;
+    text-decoration:none;
+    text-transform:capitalize;}
+      
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:32px;
+    width: 1427px;
+    
+}
+.logo_1{
+    margin-right: 600px;
+}
+
+ 
+
+.nav_links li {
+display: inline-block;
+padding: 0px 16px;
+}
+
+
+button{
+    background-color: rgba(245, 138,7, 0.1);
+    border-radius: 31px;
+    width: 173px;
+    height: 52px;
+    color: #f58A07;
+    border:rgba(245, 138,7, 0.1) ;
+    /* text padding: 18px 30px 17px 29px; */
+}
+.cta button{
+    /* padding:18px 30px 17px 29px; */
+}
+
+.item_01{
+    display: flex;
+    width: 1933px;
+    height: 703px;
+    background-color: #dceaf5;
+    position: relative;
+}
+.header_01{
+    width: 747px;
+    height: 618px;
+}
+
+
