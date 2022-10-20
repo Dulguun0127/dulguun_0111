@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    /* width: 1933px; */
 }
 
 h1{
@@ -25,8 +26,14 @@ a{
     text-decoration: none;
 }
 
-header{
-    width: 1480px;
+header {
+    /* height: 703px; */
+   background-color:#DCEAF5 ;
+    /* width: 1480px; */
+}
+
+section {
+    /* width: 1933px; */
 }
 
 #navbar {
@@ -94,29 +101,69 @@ h4{
 
 #navbar a :last-child{
 color:#F58A07 ;
-padding: 18px 30px 17px 29px;
+/* padding: 18px 30px 17px 29px; */
 border-radius: 31px;
 background: rgba(245, 138, 7, 0.1);
 border: none;
 }
 
 .container{
-   width: 1933px;
-   height: 703px;
-   background-color:#DCEAF5 ;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+   /* width: 1933px; */
+   max-width: 1280px;
+   margin: 0 auto;
 }
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .Image1{
     background-position: center;
     background-size: cover;
     width: 747px;
-    height: 616px;
+    /* height: 616px; */
 
 }
+.Image1 img {
+    display: block;
+}
+
+.flex1 {
+    display: flex;
+   justify-content: center;
+}
+
+.flex1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1 ul li {
+    
+    margin: 50px 40px 75px 40px;
+}
+
+.flex1 ul li :first-child {
+    padding:18px 32px ;
+    width: 199px;
+height: 54px;
+left: 320px;
+top: 449px;
+
+background: #F58A07;
+border-radius: 27px;
+border: none;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px;
+}
+
 
 .title1 {
     /* display: flex; */
@@ -139,6 +186,7 @@ border: none;
 
 .container-item{ display: flex;
     justify-content: space-evenly;
+    width: 1933px;
     
 }
 .container-item img {
@@ -266,6 +314,21 @@ color: #0D1317;
     width: 250px;
 }
 
+.img-box {
+    position: relative;
+}
+
+.box{
+    height: 667px;
+    width: 153px;
+    background-color: #F58A07;
+    position: absolute; 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
 .container-3 {
     width:1275px ;
     height: 682px;
@@ -273,45 +336,143 @@ color: #0D1317;
     #EDF7FF;
     margin: 85px 325px 128px 320px;
     border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+}
+
+.btn {
+    border-radius: 31px;
+    padding: 8px 24px;
+    border:0;
+    cursor: pointer;
+}
+
+.btn-orange {
+    
+    color: #F58A07;
+    background-color: #fff;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: rgba(6, 50, 85, 0.3);
+    border: 1px solid rgba(6, 50, 85, 0.3);
 }
 
 .container-item1 {
-    margin: 56px 670px 88px 48px;
+    display: flex;
+    justify-content: flex-start;
+    
     
 }
 
-.container-item1 ul li {
+.container-item1 ul {
     list-style: none;
-    display: inline;
+    /* display: inline; */
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+    margin: 48px 24px 80px 48px;
+}
 
+.container-item1 ul li {
+    margin: 0px 24px;
+    padding: 8px 24px;
+    border-radius: 31px;
+    background-color: none;
+    color: rgba(6, 50, 85, 0.3);
+    
 }
 
 .container-item1 ul li button :first-child {
     color: #DCEAF5;
 }
 
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 .container-4 {
-    width: 960px;
+    /* width: 1920px; */
     height: 518px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
     
 
 }
 
-.container-4 div :last-child {
-    background-color:#F58A07 ;
-    width: 960px;
+.container-4 {
+    /* width: 1920px; */
     height: 518px;
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+    
 }
 
-.container-4-img {
-   width: 960px;
-   height: 518px;
+.container-img {
+    /* width: 50%; */
+    flex: 1;
+    /* width: 960px; */
+    /* height: 518px; */
+    
 }
+
+.container-img img {
+    width: 100%;
+    height: 518px;
+
+
+}
+
+.container-4  div:last-child h4 {
+    color: white;
+
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    background-color: #0D1317;
+    flex-direction: column;
+
+}
+
+.container-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 128px auto;
+
+}
+
+.container-5 h3 {
+    color:#0D1317;
+    font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+letter-spacing: -0.03em;
+text-transform: capitalize;
+width: 550px;
+
+}
+
+.container-5 p {
+    width: 550px;
+    margin: 24px auto;
+}
+
+.container-img {
+
+}
+
+
 
 
 

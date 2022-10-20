@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulguun</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <nav>
         <div id="navbar">
             <h3 class="logo">
                 <span class="logo">
@@ -24,21 +24,29 @@
             </ul>
             <a class="cta" href=""><button>Call to action</button></a>
         </div>
-        <div class="container ">
-            <div class="Image1">
-                <img src="./img/header-image.png" alt="">
-            </div>
+    </nav>
+    <header>
+        <div class="container header-section">
             <div class="title1">
                 <h1>Prosper with our bespoke solutions</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique</p>
-            </div>
-            <div class="title2">
-                     <ul>
-                         <li><a href=""><button>See our services</button></a></li>
-                         <li><a href="">See All Services</a></li>
-                     </ul>
-            </div>
+                <div class="flex1">
+                    <ul>
+                        <li><button>See our services</button></li>
+                        <li><button>See All Services</button></li>
+                    </ul>
+                </div>
+                <p>Worked with 100+ Companies</p>    
+                <div class="flex2">
+                    <div><img src="./images/haeder-logo-1.svg" alt=""></div>
+                    <div><img src="./images/heder-logo-2.svg" alt=""></div>
+                    <div><img src="./images/header-logo-3.svg" alt=""></div>
+                </div>
 
+            </div>
+            <div class="Image1">
+                <img src="./images/header-image.png" alt="">
+            </div>
 
 
         </div>
@@ -50,7 +58,7 @@
         </div>
         <div class="container-item">
             <div class="item1">
-                <img src="./img/post1.png" alt="">
+                <img src="./images/post1.png" alt="">
                 <h5>
                     Business strategy
                 </h5>
@@ -58,7 +66,7 @@
                 <a href="">learn more</a>
             </div>
             <div class="item1">
-                <img src="./img/post-2.png" alt="">
+                <img src="./images/post-2.png" alt="">
                 <h5>
                     Digitalization
                 </h5>
@@ -66,7 +74,7 @@
                 <a href="">learn more</a>
             </div>
             <div class="item1">
-                <img src="./img/post-3.png" alt="">
+                <img src="./images/post-3.png" alt="">
                 <h5>
                     Risk assessment
                 </h5>
@@ -77,10 +85,10 @@
         <div class="container-1">
             <div class="item-1"><h5>We are building software solution that solves your business challenges</h5></div>
             <div class="item-2"><p></p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</div>
-            <div class="item-3"><img src="./img/Icon-heart.png" alt=""><h5>Invoicing</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p></div>
-            <div class="item-4"><img src="./img/Icon-layer.png" alt=""><h5>Support
+            <div class="item-3"><img src="./images/Icon-heart.png" alt=""><h5>Invoicing</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p></div>
+            <div class="item-4"><img src="./images/Icon-layer.png" alt=""><h5>Support
             </h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p></div>
-            <div class="item-5"><img src="./img/Icon-wizard.png" alt=""><h5>Surveying</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p></div>
+            <div class="item-5"><img src="./images/Icon-wizard.png" alt=""><h5>Surveying</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p></div>
           
            
         </div>
@@ -105,36 +113,59 @@
 
                     </div>
                 </div>
-                <div>
-                    <img src="./img/about-image.png" alt="">
+                <div class="img-box">
+                    <img src="./images/about-image.png" alt="">
+                    <div class="box"></div>
                 </div>
         </div> 
         <div class="container-3">
             <div class="container-item1">
                 <ul>
-                        <li><button>Business strategy</button></li>
-                        <li><button>Digitalization</button></li>
-                        <li><button>Risk assessment</button></li>
+                        <li><button class="btn btn-orange">Business strategy</button></li>
+                        <li><button class="btn btn-transparent">Digitalization</button></li>
+                        <li><button class="btn btn-transparent">Risk assessment</button></li>
                 </ul>
             </div>
-            <div>
-                <h4>Helping clients with research and strategy for their business</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda sed a impedit cumque nemo deserunt nulla aspernatur earum autem molestiae!</p>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="./img/team.png" alt="">
-            </div>
+            <div class="container-flex">
+                    <div>
+                        <h4>Helping clients with research and strategy for their business</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda sed a impedit cumque nemo deserunt nulla aspernatur earum autem molestiae!</p>
+                        <a href=""></a>
+                    </div>
+                    <div>
+                        <img src="./images/team.png" alt="">
+                    </div>
+            </div>  
         </div>
         <div class="container-4">
-            <div>
-                <img src="./img/team.png" alt="">
+            <div class="container-img">
+                <img width="" src="./images/experience-image.png" alt="">
             </div>
-            <div>
-                <h4>Energy of a start-up combined with 30 years of experience.</h4>
-                <a href="#"><button>See Job Vacancies</button></a>
+            <div style="flex:1">
+                  <div class="container-box">
+                     <h4>Energy of a start-up combined with 30 years of experience.</h4>
+                            <div>
+                                <a href="#"><button>See Job Vacancies</button></a>
+                            </div>
+                    </div>
 
             </div>
+        </div>
+        <div class="container-5">
+            <div class="container-title">
+                <h3>Finsweet was a dream to work with</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sequi consequuntur quidem culpa, sunt ullam dolores mollitia repellendus neque iusto.</p>
+                <div class="C-1">
+                    <div></div>
+                    <div>
+                        <h3></h3>
+                        <h4></h4>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-img"><img src="./images/video-image.png" alt=""></div>
         </div>
 
 
