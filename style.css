@@ -11,8 +11,12 @@ body{
     /* width: 1933px; */
 }
 
+nav {
+    /* max-width: 1280px; */
+}
+
 h1{
-    width: 600px;
+    /* width: 600px; */
     font-size: 64px;
 line-height: 72px;
 /* or 112% */
@@ -37,9 +41,9 @@ section {
 }
 
 #navbar {
-    padding: 24px 320px;
+    padding: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 h2{font-weight: 600;
@@ -53,16 +57,26 @@ h2{font-weight: 600;
 
   
 
-h3.logo{
-    color: #063255;
+h3 {
+
+    font-weight: 600;
+font-size: 36px;
+/* line-height: 44px; */
+/* or 122% */
+
+/* letter-spacing: -0.03em; */
+
+color: #0D1317;
+
 }
+
 p{padding: 12px;
     align-items: center;
     font-weight: 500;
 font-size: 18px;
 line-height: 30px;
 /* or 167% */
-width: 600px;
+/* width: 600px; */
 color: #5B5B5B;
 }
 
@@ -85,14 +99,19 @@ h4{
 
 }
 
+.section-color {
+    background-color: #DCEAF5;
+}
+
 #navbar ul{
     display: flex;
     list-style: none;
     align-items: center;
-    padding: 0px ;
+    /* padding: 0px ; */
+    justify-content: space-evenly;
 }
 
-#navbar ul li{
+#navbar ul li a {
     color: #394149;
     font-size: 16px;
     padding: 0px 24px;
@@ -120,9 +139,9 @@ border: none;
 
 
 .Image1{
-    background-position: center;
-    background-size: cover;
-    width: 747px;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* width: 747px; */
     /* height: 616px; */
 
 }
@@ -132,26 +151,28 @@ border: none;
 
 .flex1 {
     display: flex;
-   justify-content: center;
+   justify-content: space-between;
+   /* gap: 20px; */
 }
 
 .flex1 ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .flex1 ul li {
     
-    margin: 50px 40px 75px 40px;
+    
+    margin: 32px 0px 52px 0px;
 }
 
 .flex1 ul li :first-child {
     padding:18px 32px ;
-    width: 199px;
+    /* width: 199px; */
 height: 54px;
-left: 320px;
-top: 449px;
+/* left: 320px; */
+/* top: 449px; */
 
 background: #F58A07;
 border-radius: 27px;
@@ -175,18 +196,19 @@ border: none;
     /* display: flex; */
 }
 .section-1 h1{
-    margin : 96px 865px 27px 320px;
-    width: 935px;
+    /* margin : 96px 865px 27px 320px; */
+    /* width: 935px; */
 
 }
 .section-1 p {
-    width:935px ;
-    margin: 0px 865px 64px 320px ;
+    /* width:935px ; */
+    /* margin: 0px 865px 64px 320px ; */
 }
 
-.container-item{ display: flex;
+.container-item { display: flex;
     justify-content: space-evenly;
-    width: 1933px;
+    /* width: 1933px; */
+    /* flex-wrap: wrap; */
     
 }
 .container-item img {
@@ -221,13 +243,13 @@ color: #F58A07;
 }
 
 .container-1 {
-    width: 1933px;
+    /* width: 1933px; */
     height: 703px;
     background-color:#DCEAF5 ;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .container-1 {
@@ -330,12 +352,14 @@ color: #0D1317;
 }
 
 .container-3 {
-    width:1275px ;
-    height: 682px;
+    display: flex;
+    /* width:1275px ; */
+    /* height: 682px; */
     background-color: 
     #EDF7FF;
-    margin: 85px 325px 128px 320px;
-    border-radius: 20px;
+    justify-content: space-evenly;
+    /* margin: 85px 325px 128px 320px; */
+    /* border-radius: 20px; */
     /* display: flex; */
     /* flex-wrap: wrap; */
     /* align-content: space-around; */
@@ -362,7 +386,7 @@ color: #0D1317;
 
 .container-item1 {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     
     
 }
@@ -451,6 +475,10 @@ color: #0D1317;
 
 }
 
+.container-title {
+    flex: 1;
+}
+
 .container-5 h3 {
     color:#0D1317;
     font-size: 48px;
@@ -464,13 +492,69 @@ width: 550px;
 }
 
 .container-5 p {
-    width: 550px;
-    margin: 24px auto;
+    /* width: 550px; */
+    /* margin: 24px auto; */
 }
 
-.container-img {
+.container-img img {
+    flex: 1;
 
 }
+
+.c-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.c-1 h3 {
+    font-weight: 500;
+font-size: 24px;
+line-height: 171%;
+/* identical to box height, or 41px */
+
+
+color: #063255;
+
+}
+
+.c-1 h4 {
+    font-weight: 500;
+font-size: 18px;
+line-height: 171%;
+/* identical to box height, or 31px */
+
+
+color: #F58A07;
+
+}
+
+.container-item6 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-item6 h5 {
+    font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.03em;
+text-transform: capitalize;
+
+color: #0D1317;
+width: 400px;
+
+}
+
+.container-item6 div {
+    width: 453px;
+}
+
+
+
+
 
 
 
