@@ -553,6 +553,321 @@ width: 400px;
 }
 
 
+.header-section h1 {
+    width: 618px;
+/* height: 216px; */
+left: 320px;
+top: 308px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+
+}
+
+.header-section p {
+    width: 510px;
+/* height: 59px; */
+left: 320px;
+top: 548px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #5B5B5B;
+}
+
+.header-section button {
+    color: #ffffff;
+    padding: 18px 32px;
+    width: 171px;
+height: 54px;
+left: 320px;
+top: 639px;
+
+background: #F58A07;
+border-radius: 27px; 
+cursor: pointer;
+border: none;
+}
+
+.header-section {
+    background-color: #fff;
+    margin: 20px 20px;
+}
+
+
+.section1 {
+    margin: 20px 50px;
+
+}
+
+.header-section h3 {
+    width: 410px;
+height: 56px;
+left: 1017px;
+top: 1044px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.03em;
+
+color: #0D1317;
+
+}
+
+.header-section ul li {
+    width: 334px;
+    height: 28px;
+    left: 1031px;
+    top: 1274px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    
+    color: #5B5B5B;
+
+}
+
+.section-2 {
+    margin: 20px 50px;
+}
+
+
+ .header-section h2 {
+    width: 550px;
+height: 112px;
+left: 320px;
+top: 4422px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+letter-spacing: -0.03em;
+text-transform: capitalize;
+
+color: #0D1317;
+ }
+
+ .c2 {
+    display: flex;
+ }
+
+ .c2 div {
+    margin:10px
+ }
+
+ .c2 h4 {
+    width: 145px;
+height: 41px;
+left: 424px;
+top: 4694px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 171%;
+/* identical to box height, or 41px */
+
+
+color: #063255;
+
+ }
+
+ .c2 h5 {
+    width: 129px;
+height: 31px;
+left: 424px;
+top: 4731px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 171%;
+/* identical to box height, or 31px */
+
+
+color: #F58A07;
+
+ }
+
+ .section3 {
+    /* width: 1920px; */
+    height: 819px;
+    left: 0px;
+    top: 4973px;
+    
+    /* background: #DCEAF5; */
+
+
+ }
+
+ .container-item {
+    margin:;
+ }
+
+ .section3-1 {
+    margin: 40px;
+ }
+ 
+
+ .section-7 {
+    background-color:#DCEAF5;;
+ }
+
+
+ .section8 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+ }
+
+ .section8 div {
+    width: 400px;
+height: 181px;
+left: 320px;
+top: 1074px;
+
+background: rgba(193, 228, 255, 0.3);
+border-radius: 20px;
+ }
+
+
+ .header-1 {
+    display: flex;
+    align-items: center; 
+    height: 817px;
+ }  
+
+ .header-1 h1 {
+
+width: 527px;
+height: 216px;
+left: 319px;
+top: 301px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+ }
+
+ .header-1 h5 {
+    width: 222px;
+height: 32px;
+left: 507px;
+top: 245px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+
+color: #394149;
+
+opacity: 0.87;
+
+ }
+
+ .header-1 p {
+    width: 559px;
+height: 90px;
+left: 319px;
+top: 541px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #5B5B5B;
+
+ }
+
+ .header-1 a {
+    width: 86px;
+height: 17px;
+left: 319px;
+top: 655px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 106.5%;
+/* identical to box height, or 17px */
+
+
+color: #F58A07;
+
+ }
+
+ .header-1 img {
+    
+    width: 700px;
+height: 493px;
+left: 866px;
+top: 212px;
+
+background: url(.png);
+border-radius: 20px;
+ }
+  
+
+.section-9 {
+    background-color: #ffffff;
+}
+
+
+.item-1 {
+    background: #EDF7FF;
+}
+
+
+
+
+
+
 
 
 
